@@ -27,7 +27,7 @@ y_values = [row[1] for row in data]
 fig = go.Figure(data=go.Scatter(x=x_values, y=y_values, mode='markers'))
 
 # Customize the layout (optional)
-fig.update_layout(title='Your Chart Title', xaxis_title='X Axis Title', yaxis_title='Y Axis Title')
+fig.update_layout(title='Loads', xaxis_title='Time', yaxis_title='Loads')
 
 # Save the chart as an HTML file
 fig.write_html('chart.html')
